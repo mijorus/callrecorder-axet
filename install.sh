@@ -171,7 +171,7 @@ on_install()
 					pm uninstall com.github.axet.callrecorder
 					ui_print "- Removing temp APK"
 					
-					rm -f "$MODPATH/callrecorder1.7.6.apk"
+					rm -f "$MODPATH/com.github.axet.callrecorder_217.apk"
 					
 					ui_print "- All done, please reboot!"
 				else
